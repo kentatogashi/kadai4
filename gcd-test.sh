@@ -35,6 +35,5 @@ echo GCD functionality
 test_true_case "args: 1 2 expected: 1" 1 2 1
 test_true_case "args: 12 18 expected: 6" 12 18 6
 test_true_case "args: 100 100 expected: 100" 100 100 100
-test_true_case "args: 200 200 expected: 100" 200 200 100
 
 echo "All passed."
