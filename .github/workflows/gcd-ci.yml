@@ -25,4 +25,8 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Run test script 
+        run: |
+          chmod +x gcd.sh gcd-test.sh
+          ./gcd-test.sh
       - run: echo "🍏 This job's status is ${{ job.status }}."
